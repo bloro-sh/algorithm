@@ -1,0 +1,12 @@
+# macOS / VS Code 설정 파일 제외
+.vscode/
+.DS_Store
+
+# 디버그 기호 폴더 및 빌드 아티팩트 제외
+*.dSYM/
+
+# C 실행 파일 제외 (확장자가 없는 compiled binary)
+hello
+# 또는 C 프로젝트 일반 실행 파일 패턴 제외
+!*.c
+!*.h
